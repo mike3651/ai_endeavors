@@ -76,7 +76,7 @@ class Node:
     param cost --> The cost associated with this node.
     param next --> The link to the next node in this chain
     '''
-    def __init__(self, data, cost, next):
+    def __init__(self, data, cost, nextNode):
         self.data = data
         self.cost = cost
-        self.next = next
+        self.next = nextNode
